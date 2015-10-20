@@ -249,7 +249,7 @@ define( [
 			},
 			{
 				value: "openWebsite",
-				label: "Open website"
+				label: "Open web site"
 			}
 		]
 	};
