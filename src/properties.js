@@ -250,7 +250,12 @@ define( [
 			{
 				value: "openWebsite",
 				label: "Open web site"
+			},
+			{
+				value: "reloadApp",
+				label: "Reload app"
 			}
+
 		]
 	};
 

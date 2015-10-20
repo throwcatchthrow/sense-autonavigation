@@ -1,3 +1,7 @@
+version: 0.6.0
+  date: "2015-10-20"
+  enhancements:
+    - "First working version with a reload, although not working yet on server"
 version: 0.5.2
   date: "2015-10-20"
   enhancements:

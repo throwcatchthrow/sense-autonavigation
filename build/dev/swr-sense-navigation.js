@@ -48,6 +48,9 @@ define( [
 								window.open($scope.layout.props.websiteUrl);
 							}
 							break;
+						case "reloadApp":
+							$scope.reloadApp();
+							break;
 						default:
 							break;
 					}
@@ -101,6 +104,19 @@ define( [
 						$scope.doAction();
 						$scope.doNavigate();
 					}
+				};
+
+				//Todo: Think of an appropriate error handling ...
+				$scope.reloadApp = function () {
+
+					qlik.getGlobal().isPersonalMode( function ( isPersonalMode ) {
+						if (isPersonalMode) {
+							qlik.currApp().doReload(0, false, false ).then( function ( /*reply*/ ) {
+								//console.log('reload promise reply: ', reply);
+							})
+						}
+					})
+
 				};
 
 				$scope.nextSheet = function () {
