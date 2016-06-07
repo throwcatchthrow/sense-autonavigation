@@ -348,6 +348,10 @@ define( [
 			label: "Lock Field"
 		},
 		{
+			value: "lockAll",
+			label: "Lock All"
+		},
+		{
 			value: "selectandLockField",
 			label: "Select and Lock in Field"
 		},
