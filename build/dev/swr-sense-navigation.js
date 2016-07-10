@@ -127,6 +127,10 @@ define( [
 									app.field( fld ).lock()
 								}
 								break;
+							case "lockAll":
+								app.lockAll();
+								break;
+
 							case "applyBookmark":
 								if ( !_.isEmpty( $scope.layout.props['bookmark' + i] ) ) {
 									app.bookmark.apply( $scope.layout.props['bookmark' + i] );
