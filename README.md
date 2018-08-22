@@ -1,11 +1,6 @@
 # sense-autonavigation
 > Sheet Autonavigation for QLIK Sense. Turn your application into an automatically executing presentation.
 
-![](https://raw.githubusercontent.com/stefanwalther/sense-navigation/master/docs/images/sense-navigation.png)
-
-HEADS-UP:
-
-
 ## Purpose and Description
 
 
